@@ -1,4 +1,4 @@
-//Version 1.10
+// Version 1.4
 
 import java.util.Scanner;
 
@@ -32,21 +32,13 @@ public class Kalkulator3 {
         scan.close();
 
         //Przełącznik do wykonywanych obliczeń
-        double suma = 0;
-        switch (operator) {
-            case 1:
-                suma = liczba1 + liczba2;
-                break;
-            case 2:
-                suma = liczba1 - liczba2;
-                break;
-            case 3:
-                suma = liczba1 * liczba2;
-                break;
-            case 4:
-                suma = liczba1 / liczba2;
-                break;
-        }
+        double suma = switch (operator) {
+            case 1 -> liczba1 + liczba2;
+            case 2 -> liczba1 - liczba2;
+            case 3 -> liczba1 * liczba2;
+            case 4 -> liczba1 / liczba2;
+            default -> 0;
+        };
         System.out.println("Wynik:" + suma);
     }
 }
