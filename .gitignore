@@ -1,29 +1,36 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/.idea/
-!**/src/test/**/out/.idea/
+# IntelliJ IDEA
+.idea/
+*.iml
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Build output
+/out/
+*.class
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Java-specific
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
-### VS Code ###
+# Gradle
+.gradle/
+build/
+
+# VS Code (jeśli przypadkiem otworzysz tam)
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# JavaFX (jeśli dodajesz pliki tymczasowe do testów)
+*.tmp
