@@ -1,4 +1,4 @@
-//version 2.2
+// Version 2.2
 
 import javax.swing.*;
 import java.awt.*;
