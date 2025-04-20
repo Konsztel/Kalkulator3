@@ -1,8 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 //Version 1.10
 
 import java.util.Scanner;
 =======
+=======
+>>>>>>> Stashed changes
 // Version 2.1
 
 import javax.swing.*;
@@ -17,7 +20,11 @@ public class Kalkulator3  extends JFrame implements ActionListener {
     JTextField t_a, t_b;
     double a, b, wynik;
 
+<<<<<<< Updated upstream
     public Kalkulator3 () {
+=======
+    public Kalkulator3() {
+>>>>>>> Stashed changes
         setSize(800,600);
         setTitle("Kalkulator");
         setLayout(null);
@@ -93,6 +100,12 @@ public class Kalkulator3  extends JFrame implements ActionListener {
         t_b = new JTextField("");
         t_b.setBounds(50, 200, 50, 50);
         add(t_b);
+<<<<<<< Updated upstream
+=======
+
+        UIManager.put("ToolTip.font", new Font("Arial", Font.PLAIN, 16));
+    }
+>>>>>>> Stashed changes
 
         UIManager.put("ToolTip.font", new Font("Arial", Font.PLAIN, 16));
     }
